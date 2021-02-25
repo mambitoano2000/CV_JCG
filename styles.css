@@ -1,0 +1,270 @@
+/* Définition des polices personnalisées */
+
+@font-face 
+{
+    font-family: 'NotoSansDisplayCondensed';
+    src: 
+         url('fonts/NotoSansDisplayCondensed.eot') format('eot'),
+         url('fonts/NotoSansDisplayCondensed.woff') format('woff'),
+         url('fonts/NotoSansDisplayCondensed.ttf') format('truetype'),
+         url('fonts/NotoSansDisplayCondensed') format('svg');
+}
+
+/* Eléments principaux de la page */
+
+
+
+body
+{
+    background-color: rgb(236, 222, 222);
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    margin: 0%;
+    
+}
+
+h1, h2, h3
+{
+    font-family: 'NotoSansDisplayCondensed';
+}
+
+h3
+{
+    font-size: 1.5em;
+}
+
+ul
+{
+    list-style-type: none;
+    display: inline;
+    margin: 0%;
+}
+
+/* Bloc de toute la page */
+
+#bloc_page
+{
+display: flex;
+
+}
+
+/* Bloc liseret */
+
+#rebordo
+{
+width: 10%;
+background-image: url('img/background.jpg'), url('img/backgroundalmeria.png');
+background-position: bottom, top;
+background-repeat: no-repeat, no-repeat;
+background-size: 850%, 100%;
+opacity: 1;
+
+ }
+
+/* Bloc contenu de la plage */
+
+#page_content
+{
+width: 90%;
+
+}
+
+header
+{
+    text-align: center;
+    background-color: bisque;
+    width: 65%;
+    margin: auto;
+    padding-bottom: 0.3%;
+}
+
+header h1
+{
+   font-size: 3em;
+  
+}
+
+#presentation
+{
+    margin: 0%;
+    background-color: cornflowerblue;
+}
+
+#contact
+{
+    margin: 0%;
+    background-color: coral;
+}
+
+
+#all_sections
+{
+    
+    background-color: burlywood;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    overflow: auto;
+        
+}
+
+
+
+#all_sections header
+
+{
+   width: 100%;
+   display: flex;
+   
+}
+
+
+#titulo1
+{
+    background-color: darkmagenta;
+    width: 25%;
+}
+
+#titulo2
+{
+    background-color: darkmagenta;
+    width: 50%;
+}
+
+#titulo3
+{
+    background-color: darkmagenta;
+    width: 25%;
+}
+
+#all_sections header #titulo2 
+{
+    width: 50%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+#all_sections #flexinshit
+
+{
+    display: flex;
+    width: 100%;
+    
+    
+}
+
+
+#section_one
+{
+    
+    
+    width: 25%;
+    padding: 3%;
+    
+   
+    
+}
+
+#section_one h4
+{   
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+
+#section_one em
+{
+    font-style: normal;
+    font-weight: normal;
+}
+
+#section_one p
+{
+    margin-top: 1.5%;
+}
+
+
+
+#section_two
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    padding: 3%;
+     
+    
+}
+
+
+
+#experienceone
+{
+   background-color: chocolate;
+   margin-bottom: 10%;
+    
+    
+}
+
+#experienceone h4
+{
+   margin-bottom: 0%;
+    
+}
+
+#experienceone p
+{
+   margin-top: 1.5%;
+    
+}
+
+#experiencetwo
+{
+background-color: rgb(153, 153, 189);
+ 
+}
+
+#experiencetwo h4
+{
+   margin-bottom: 0%;
+    
+    
+}   
+
+#experiencetwo p
+{
+   margin-top: 1.5%;
+    
+}
+
+.dates
+{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#section_three
+{
+    
+    width: 25%;
+    padding: 3%;
+}
+
+
+#section_three h3
+{
+  margin: 0;  
+}
+
+#section_three  ul
+{
+    margin: 0%;
+    padding: 0%;
+    text-align: left;
+}
+
+
+}

@@ -1,0 +1,21 @@
+#bloc_page
+{
+    width: auto; 
+}
+
+#rebordo
+{
+    display: none;
+}
+
+#all_sections
+{
+    flex-direction: column;
+    text-align: center;
+}
+
+#section_one
+{
+    
+    text-align: center;
+}
