@@ -52,13 +52,10 @@ display: flex;
 #rebordo
 {
 width: 10%;
-background-image: url('img/background.jpg'), url('img/backgroundalmeria.png');
-background-position: bottom, top;
-background-repeat: no-repeat, no-repeat;
-background-size: 850%, 100%;
+background-image: url('img/background.jpg'); 
+background-repeat: repeat;
 opacity: 1;
-
- }
+}
 
 /* Bloc contenu de la plage */
 
